@@ -12,19 +12,14 @@
 using namespace Eigen;
 using namespace std;
 
-int main() { //test mano
-
-	//Erstelle ein Testvector
-	Eigen::VectorXd input = Eigen::VectorXd(2);
-	input << 1, 1;
-	std::cout << input << endl;
+int main() {
 
 	//Erstelle PErceptron
-	Perceptron *p = new Perceptron();
+	Perceptron p = Perceptron();
 
-	std::cout << "Perceptron anzahl in und outs: " << *p->nrIn  << endl
-			  << "Perceptron anzahl in und outs: " << *p->nrOut << endl
-			  << "Weights: " << *p->weights << endl;
+	std::cout << "Perceptron anzahl ins: " << endl <<  p.nrIn  << endl
+			  << "Perceptron anzahl  outs: " << endl << p.nrOut << endl
+			  << "Weights: " << p.weights << endl;
 
 	MatrixXd m(2,2);
 	  m(0,0) = 3;
