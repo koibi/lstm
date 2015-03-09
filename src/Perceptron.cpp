@@ -7,14 +7,22 @@
 
 #include "Perceptron.h"
 
+using namespace std;
 
+double Perceptron::calcOutput(Eigen::VectorXd inputData) {
+	if (inputData.size() == this->nrInputs) {
+		cout << "ERROR: Data size != Perceptron Inputs" << endl;
+		exit(0);
+	} else {
+		this->nrOut = inputData.dot(this->weights);
+		return this->nrOut;
+	}
+}
 
 Perceptron::Perceptron() {
-	nrIn = Eigen::VectorXd(2);
+	nrInputs = 2;
 	weights = Eigen::VectorXd(2);
-	weights << 0.5, 0.5;
-	nrOut = Eigen::VectorXd(1);
-	// TODO Auto-generated constructor stub
+	nrOut = -1;
 
 }
 

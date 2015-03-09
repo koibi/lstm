@@ -16,10 +16,16 @@ int main() {
 
 	//Erstelle PErceptron
 	Perceptron p = Perceptron();
+	p.weights<< 3, 2;
 
-	std::cout << "Perceptron anzahl ins: " << endl <<  p.nrIn  << endl
+	std::cout << "Perceptron anzahl ins: " << endl <<  p.nrInputs  << endl
 			  << "Perceptron anzahl  outs: " << endl << p.nrOut << endl
 			  << "Weights: " << p.weights << endl;
+
+	Eigen::VectorXd v;
+	v << 1, 0;
+	p.calcOutput(v);
+	cout << "out" << p.nrOut << endl;
 
 	MatrixXd m(2,2);
 	  m(0,0) = 3;

@@ -9,13 +9,16 @@
 #define PERCEPTRON_H_
 #include <Eigen/Core>
 #include <Eigen/Dense>
+#include <iostream>
 
 class Perceptron {
 
 public:
+	int nrInputs;
 	Eigen::VectorXd weights;
-	Eigen::VectorXd nrIn;
-	Eigen::VectorXd nrOut;
+	double nrOut;
+
+	double calcOutput(Eigen::VectorXd inputData);
 
 	Perceptron();
 	//Erstellt Perceptron Instanz mit einer bestimmten Anzahl an Inputs und outputs.
