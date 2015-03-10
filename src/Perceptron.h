@@ -16,13 +16,13 @@ class Perceptron {
 public:
 	int nrInputs;
 	Eigen::VectorXd weights;
-	double nrOut;
+	double myTheta;
+	double out;
+
 
 	double calcOutput(Eigen::VectorXd inputData);
 
-	Perceptron();
-	//Erstellt Perceptron Instanz mit einer bestimmten Anzahl an Inputs und outputs.
-	Perceptron(int, int);
+	Perceptron(double threshhold, double nrInputs, Eigen::VectorXd weightMatrix);
 	virtual ~Perceptron();
 };
 

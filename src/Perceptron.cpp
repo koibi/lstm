@@ -10,19 +10,28 @@
 using namespace std;
 
 double Perceptron::calcOutput(Eigen::VectorXd inputData) {
-	if (inputData.size() == this->nrInputs) {
-		cout << "ERROR: Data size != Perceptron Inputs" << endl;
-		exit(0);
+	if (!(inputData.size() == this->nrInputs)) {
+		cout << "ERROR: Data size != Perceptron Inputs" << "Input size " << inputData.size() << "Inner size " << this->weights.size() << endl;
+		return this->out;
 	} else {
-		this->nrOut = inputData.dot(this->weights);
-		return this->nrOut;
+		this->out = inputData.dot(this->weights);
+
+		if(out > this->myTheta) {
+			this->out = 1;
+		} else {
+			this->out = 0;
+		}
+
+		return this->out;
 	}
 }
 
-Perceptron::Perceptron() {
-	nrInputs = 2;
-	weights = Eigen::VectorXd(2);
-	nrOut = -1;
+Perceptron::Perceptron(double threshhold, double nrInputs, Eigen::VectorXd weightMatrix) {
+	myTheta = threshhold;
+	this->nrInputs = nrInputs;
+	weights = weightMatrix;
+	out = -1;
+
 
 }
 
