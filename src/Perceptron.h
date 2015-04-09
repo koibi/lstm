@@ -12,17 +12,28 @@
 #include <iostream>
 
 class Perceptron {
+private:
+	// Threshhold for neuron activation.
+	double myTheta;
+	//Inputfunktion. Calculates transformations on input data.
+	void inline f_in();
+	//Inner Funktion. Or activation function.
+	void inline f_activation();
+	//Output function. Transform the output data.
+	void inline f_out();
+	//Number of inputs for the Perceptron.
+	int nrInputs;
 
 public:
-	int nrInputs;
+	//Weights for inputs.
 	Eigen::VectorXd weights;
-	double myTheta;
-	double out;
 
 
-	double calcOutput(Eigen::VectorXd inputData);
+	double run(Eigen::VectorXd inputData);
+	int setWeights(Eigen::VectorXd weights);
 
-	Perceptron(double threshhold, double nrInputs, Eigen::VectorXd weightMatrix);
+
+	Perceptron(int nrInputs, double myTheta);
 	virtual ~Perceptron();
 };
 
