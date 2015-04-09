@@ -10,8 +10,7 @@
 namespace net {
 
 Net::Net() {
-	// TODO Auto-generated constructor stub
-
+	weightMatrixIsSet = false;
 }
 
 Net::~Net() {
