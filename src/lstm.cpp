@@ -19,7 +19,7 @@ int main() {
 	weights << 3, 2;
 	Perceptron p = Perceptron(4,2,weights);
 
-
+	//
 	std::cout << "Perceptron anzahl ins: " << endl << p.nrInputs << endl
 			<< "Perceptron anzahl  outs: " << endl << p.out << endl
 			<< "Weights: " << endl << p.weights << endl;
