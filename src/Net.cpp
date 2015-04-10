@@ -10,7 +10,7 @@
 namespace net {
 
 Net::Net() {
-	weightMatrixIsSet = false;
+	//weightMatrixIsSet = false;
 }
 
 Net::~Net() {

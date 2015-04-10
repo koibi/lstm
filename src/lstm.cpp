@@ -16,13 +16,12 @@ using namespace net;
 
 int main() {
 
-	//Create Neural Network
-	Net net = Net();
+	Eigen::VectorXd v(2);
 
-	//TODO init
-	net.setInputLayer(2);
-	//TODO train
-	//TODO proove
-	//
+	v  << 0.5,0.5;
+
+	Perceptron p(2);
+	p.run(v);
+
 	return 0;
 }
