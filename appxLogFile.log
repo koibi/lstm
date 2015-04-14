@@ -1,0 +1,37 @@
+2015-04-14 11:21:58,357 DEBUG  (../src/lstm.cpp:35) - Start Program! ... 
+2015-04-14 11:22:16,772 DEBUG  (../src/lstm.cpp:35) - Start Program! ... 
+2015-04-14 11:22:23,284 DEBUG  (../src/lstm.cpp:35) - Start Program! ... 
+2015-04-14 13:08:51,561 DEBUG  (../src/lstm.cpp:35) - Start Program! ... ??
+2015-04-14 13:09:00,481 DEBUG  (../src/lstm.cpp:35) - Start Program! ... oe
+2015-04-14 17:27:35,670 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:28:19,365 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:30:42,933 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:31:56,982 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:31:56,982 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization.
+2015-04-14 17:31:56,982 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization.
+2015-04-14 17:32:56,779 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:32:56,779 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization.
+2015-04-14 17:32:56,779 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization.
+2015-04-14 17:34:11,350 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:34:11,350 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization.
+2015-04-14 17:34:11,350 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization.
+2015-04-14 17:34:51,446 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:34:51,446 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:34:51,446 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:35:16,048 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:35:16,048 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:35:16,048 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:36:22,023 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:37:11,312 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:37:11,312 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:37:29,565 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:37:59,551 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:37:59,551 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:39:21,652 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:39:21,652 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:39:48,393 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:39:48,393 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:40:02,353 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:40:02,353 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-14 17:40:25,296 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-14 17:40:25,296 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000

@@ -10,6 +10,8 @@
 #include <Eigen/Core>
 #include <Eigen/Dense>
 #include <iostream>
+#include <log4cxx/logger.h>
+
 
 class Perceptron {
 private:
@@ -20,7 +22,6 @@ private:
 	void inline f_activation();
 	//Output function. Transform the output data.
 	double inline f_out();
-	//Number of inputs for the Perceptron.
 
 	// output - current output of this Perceptron
 	// myTheta threashhold for the activation function
@@ -28,11 +29,11 @@ private:
 	double output, myTheta;
 	int nrInputs;
 	bool output_init, myTheta_init, nrInput_init, weights_init;
+	void check_init();
 
 public:
 	//Weights for inputs.
 	Eigen::VectorXd weights;
-
 
 	double run(Eigen::VectorXd inputData);
 	int setWeights(Eigen::VectorXd weights);
