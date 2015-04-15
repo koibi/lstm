@@ -35,3 +35,149 @@
 2015-04-14 17:40:02,353 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
 2015-04-14 17:40:25,296 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
 2015-04-14 17:40:25,296 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:43:21,537 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:43:21,537 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:48:13,055 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:48:13,055 ERROR Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:55:49,674 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:55:49,674 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:56:10,798 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:56:10,798 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:57:09,501 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:57:09,501 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:57:50,322 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:57:50,323 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:57:50,323 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! 
+2015-04-15 15:58:06,380 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:58:06,381 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:58:06,381 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! 6.93369e-310
+6.93369e-310
+2015-04-15 15:59:57,393 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 15:59:57,393 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 15:59:57,393 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! -0.828496
+0.936511
+2015-04-15 16:00:02,660 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:00:02,660 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:00:02,660 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! 0.298388
+-0.0440116
+2015-04-15 16:09:51,211 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:09:51,211 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:09:51,211 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! -0.105142
+0.468925
+2015-04-15 16:14:17,633 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:14:17,633 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:15:02,260 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:15:02,261 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:15:13,692 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:15:13,693 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:19:37,294 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:19:37,294 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:19:46,900 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:19:46,900 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:20:11,730 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:20:11,730 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:20:23,086 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:20:23,086 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:20:35,573 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:20:35,574 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:21:11,377 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:21:11,378 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:21:18,557 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:21:18,557 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:21:38,652 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:21:38,653 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:22:26,996 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:22:26,996 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:22:26,996 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! 
+2015-04-15 16:22:52,705 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:22:52,705 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:23:16,536 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:23:16,536 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:23:59,641 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:23:59,641 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:23:59,641 DEBUG Perceptron (../src/Perceptron.cpp:42) - Weight matrix was not initialized.  Random initialisation!!! 
+2015-04-15 16:25:30,938 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:25:30,938 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:25:30,938 DEBUG Perceptron (../src/Perceptron.cpp:42) - Weight matrix was not initialized.  Random initialisation!!! 
+2015-04-15 16:25:53,839 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:25:53,839 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:25:53,839 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! -0.672405
+-0.783804
+2015-04-15 16:26:01,198 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:26:01,198 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:26:01,198 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! -0.272849
+-0.620087
+2015-04-15 16:26:03,440 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:26:03,440 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:26:03,440 DEBUG Perceptron (../src/Perceptron.cpp:41) - Weight matrix was not initialized.  Random initialisation!!! -0.920342
+0.178476
+2015-04-15 16:27:30,444 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:27:30,444 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:27:30,444 DEBUG Perceptron (../src/Perceptron.cpp:42) - Weight matrix was not initialized.  Random initialisation!!! 1.57239
+-1.05414
+2015-04-15 16:27:52,200 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:27:52,200 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:27:52,200 DEBUG Perceptron (../src/Perceptron.cpp:43) - Weight matrix was not initialized.  Random initialisation!!! -1.9471
+0.390186
+2015-04-15 16:29:55,848 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:29:55,848 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:29:55,848 DEBUG Perceptron (../src/Perceptron.cpp:43) - Weight matrix was not initialized.  Random initialisation!!! -1.40884
+-0.745048
+2015-04-15 16:30:31,691 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:30:31,692 DEBUG Perceptron (../src/Perceptron.cpp:35) - First run. No output initialization. output = -10000
+2015-04-15 16:30:31,692 DEBUG Perceptron (../src/Perceptron.cpp:45) - Weight matrix was not initialized.  Random initialisation!!! 1.66377
+2.95156
+2015-04-15 16:30:56,401 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:30:56,401 DEBUG Perceptron (../src/Perceptron.cpp:35) - First run. No output initialization. output = -10000
+2015-04-15 16:30:56,401 DEBUG Perceptron (../src/Perceptron.cpp:45) - Weight matrix was not initialized.  Random initialisation!!! -0.0106219
+-1.81975
+2015-04-15 16:31:05,386 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:31:05,386 DEBUG Perceptron (../src/Perceptron.cpp:35) - First run. No output initialization. output = -10000
+2015-04-15 16:31:05,386 DEBUG Perceptron (../src/Perceptron.cpp:45) - Weight matrix was not initialized.  Random initialisation!!! 1.57734
+1.37447
+2015-04-15 16:31:16,081 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:31:16,082 DEBUG Perceptron (../src/Perceptron.cpp:35) - First run. No output initialization. output = -10000
+2015-04-15 16:31:16,082 DEBUG Perceptron (../src/Perceptron.cpp:45) - Weight matrix was not initialized.  Random initialisation!!! 1.48306
+1.7079
+2015-04-15 16:31:44,110 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:31:44,110 DEBUG Perceptron (../src/Perceptron.cpp:35) - First run. No output initialization. output = -10000
+2015-04-15 16:31:44,110 DEBUG Perceptron (../src/Perceptron.cpp:44) - Weight matrix was not initialized.  Random initialisation!!! 1.35109
+1.76118
+2015-04-15 16:32:04,685 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:32:04,685 DEBUG Perceptron (../src/Perceptron.cpp:35) - First run. No output initialization. output = -10000
+2015-04-15 16:32:04,685 DEBUG Perceptron (../src/Perceptron.cpp:45) - Weight matrix was not initialized.  Random initialisation!!! 0.842665
+-0.327975
+2015-04-15 16:32:26,860 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:32:26,860 DEBUG Perceptron (../src/Perceptron.cpp:35) - First run. No output initialization. output = -10000
+2015-04-15 16:32:26,860 DEBUG Perceptron (../src/Perceptron.cpp:45) - Weight matrix was not initialized.  Random initialisation!!! -0.664007
+-1.35083
+2015-04-15 16:38:13,047 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:38:13,048 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:38:42,753 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:38:42,753 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:40:10,548 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:40:10,549 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:40:10,549 DEBUG Perceptron (../src/Perceptron.cpp:46) - Weight matrix was not initialized.  Random initialisation!!! 0.669232
+0.49378
+2015-04-15 16:40:56,469 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:40:56,470 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:40:56,470 DEBUG Perceptron (../src/Perceptron.cpp:47) - Weight matrix was not initialized.  Random initialisation!!! 
+0.681812
+0.359959
+2015-04-15 16:41:10,027 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:41:10,028 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:41:10,028 DEBUG Perceptron (../src/Perceptron.cpp:47) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.236354
+0.176327
+2015-04-15 16:41:16,088 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 16:41:16,088 DEBUG Perceptron (../src/Perceptron.cpp:36) - First run. No output initialization. output = -10000
+2015-04-15 16:41:16,088 DEBUG Perceptron (../src/Perceptron.cpp:47) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.805801
+0.456745
+2015-04-15 17:25:07,911 DEBUG  (../src/lstm.cpp:34) - Start Program! ... oe
+2015-04-15 17:25:07,911 DEBUG Perceptron (../src/Perceptron.cpp:43) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.802984
+0.00871162

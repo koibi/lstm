@@ -6,23 +6,22 @@
  */
 
 #include "Perceptron.h"
-
+#include <math.h>
 
 using namespace std;
 using namespace log4cxx;
 
-
-LoggerPtr perceptronLogger(Logger::getLogger( "perceptronLogger"));
+LoggerPtr perceptronLogger(Logger::getLogger("perceptronLogger"));
 
 Perceptron::Perceptron(int nrInputs, double myTheta) {
 	this->myTheta = myTheta;
 	this->nrInputs = nrInputs;
 
 	//initialisation switches
-	output_init=false;
-	myTheta_init=false;
-	nrInput_init=false;
-	weights_init=false;
+	output_init = false;
+	myTheta_init = false;
+	nrInput_init = false;
+	weights_init = false;
 
 	output = -9999.999;
 
@@ -32,15 +31,17 @@ Perceptron::~Perceptron() {
 }
 
 void Perceptron::check_init() {
-	if (!output_init) {
-		LOG4CXX_ERROR(perceptronLogger,"First run. No output initialization." << " output = " << output);
-	}
 
-	if (!myTheta_init) {
+	if (!weights_init) {
+		weights = Eigen::VectorXd::Random(2);
 
-	} else if (!nrInput_init) {
+		for (int i = 0; i < weights.size(); i++) {
+			weights (i) = abs((double)weights(i));
+		}
 
-	} else if (!weights_init) {
+		LOG4CXX_DEBUG(perceptronLogger,
+				"Weight matrix was not initialized. " << " Random initialisation!!! " << "\n \n" << weights);
+		weights_init = true;
 
 	}
 
@@ -55,12 +56,10 @@ double Perceptron::run(Eigen::VectorXd inputData) {
 }
 
 void Perceptron::f_in(Eigen::VectorXd *inputData) {
-	if (!inputData->size() == weights.size()) {
-		std::cout << "ERROR Number inputs for Perceptron != number of weigts." << std::endl;
-	}
-	std::cout << "somthing wrong " << std::endl;
+	output = weights.dot(*inputData);
 
 }
+
 
 void Perceptron::f_activation() {
 
