@@ -23,22 +23,20 @@ using namespace log4cxx;
 using namespace log4cxx::xml;
 using namespace log4cxx::helpers;
 
-LoggerPtr loggerMyMain(Logger::getLogger( "main"));
-LoggerPtr loggerFunctionA(Logger::getLogger( "functionA"));
-
+LoggerPtr loggerMyMain(Logger::getLogger("main"));
 
 int main() {
 
 	DOMConfigurator::configure("Log4cxxConfig.xml");
-
 	LOG4CXX_DEBUG(loggerMyMain, "Start Program! ... " << "oe");
 
 	Eigen::VectorXd v(2);
-
-	v  << 0.5,0.5;
+	v << 0.5, 0.5;
 
 	Perceptron p(2);
-	p.run(v);
+	Perceptron p1(2);
+	std::cout << " output:= " << p.run(v) << std::endl;
+	std::cout << " output:= " << p1.run(v) << std::endl;
 
 	return 0;
 }

@@ -12,9 +12,9 @@
 #include <iostream>
 #include <log4cxx/logger.h>
 
-
 class Perceptron {
 private:
+	int myNumber;
 
 	//Inputfunktion. Calculates transformations on input data.
 	void inline f_in(Eigen::VectorXd *inputData);
