@@ -15,30 +15,25 @@ namespace net {
 
 class Net {
 private:
-	//Number of input neurons
-	int nrInputNeurons;
-	bool isNrInputNeuronsSet;
+	int nrInputNeurons; /**< TODO **/
+	bool isNrInputNeuronsSet; /**< TODO **/
 
-	//Number of output neurons
-	int nrOutputNeurons;
-	bool isNrOutputNeuronsSet;
+	int nrOutputNeurons; /**< TODO **/
+	bool isNrOutputNeuronsSet; /**< TODO **/
 
-	//ConnectionMatrix
-	Eigen::MatrixXd weightMatrix;
-	bool isWeightMatrixSet;
+	Eigen::MatrixXd weightMatrix; /**< TODO **/
+	bool isWeightMatrixSet; /**< TODO **/
 
 public:
 
-	void setInputLayer(int nrNeurons);
-	void setHiddenLayer(int nrNeurons);
-	void setOutputLayer(int nrNeurons);
-	void setWeightMatrix();
+	void setInputLayer(int nrNeurons); /**< TODO **/
+	void setHiddenLayer(int nrNeurons); /**< TODO **/
+	void setOutputLayer(int nrNeurons); /**< TODO **/
+	void setWeightMatrix(); /**< TODO **/
 
 	//Input FUnctons
 
-
-
-	Net();
+	Net(int nrNeuronsPerLayer[]);
 	virtual ~Net();
 };
 

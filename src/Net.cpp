@@ -7,23 +7,32 @@
 
 #include "Net.h"
 
+using namespace Eigen;
+
 namespace net {
 
-Net::Net() {
-	//weightMatrixIsSet = false;
+/**
+ *
+ * @param nrNeuronsPerLayer Die länge des Arrays gibt an wie viele Layer es gibt. Die Elemente im Array geben an wie viele Neurone für das Layer initialisiert werden.
+ * Bsp: nrNeuronsPerLayer[1] Layer 1 Inhalt 10 => 10 Neurons im Layer 1.
+ */
+Net::Net(int nrNeuronsPerLayer[]) {
+
+	/** Erstelle die Gewichtsmatrix. **/
+	int count = 0;
+	for (unsigned int i = 0;
+			i <= (sizeof(nrNeuronsPerLayer) / sizeof(*nrNeuronsPerLayer));
+			i++) {
+		count += nrNeuronsPerLayer[i];
+	}
+	weightMatrix = MatrixXd(count, count);
 }
 
 Net::~Net() {
 
 }
 
-void create_Net(int nrLayers) {
-
-	int *perceptronPerLayer = new int[nrLayers];
-	float *weightMatrix = new float[nrLayers*nrLayers];
-
-	delete[] perceptronPerLayer;
-	delete[] weightMatrix;
+void create_Net(int nrNeuronsPerLayer[]) {
 
 }
 
