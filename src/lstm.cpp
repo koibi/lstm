@@ -38,8 +38,8 @@ int main() {
 	std::cout << " output:= " << p.run(v) << std::endl;
 	std::cout << " output:= " << p1.run(v) << std::endl;
 
-	int[] arr = {3,2,1};
-	Net n();
+	int arr[3] = {3,2,1};
+	Net n(arr);
 
 	return 0;
 }

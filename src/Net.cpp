@@ -8,6 +8,9 @@
 #include "Net.h"
 
 using namespace Eigen;
+using namespace log4cxx;
+
+LoggerPtr netLogger(Logger::getLogger("netLogger"));
 
 namespace net {
 

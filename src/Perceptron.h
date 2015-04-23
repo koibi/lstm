@@ -6,11 +6,12 @@
  */
 
 #ifndef PERCEPTRON_H_
-#define PERCEPTRON_H_
 #include <Eigen/Core>
 #include <Eigen/Dense>
 #include <iostream>
 #include <log4cxx/logger.h>
+#define PERCEPTRON_H_
+
 
 class Perceptron {
 private:

@@ -10,6 +10,7 @@
 
 #include <Eigen/Core>
 #include <Eigen/Dense>
+#include <log4cxx/logger.h>
 
 namespace net {
 
