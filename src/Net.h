@@ -16,6 +16,8 @@ namespace net {
 
 class Net {
 private:
+
+	Perceptron perceptronArray[];
 	int nrInputNeurons; /**< TODO **/
 	bool isNrInputNeuronsSet; /**< TODO **/
 
