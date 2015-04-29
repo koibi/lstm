@@ -301,3 +301,118 @@
  
 0.74332
 0.330255
+2015-04-28 20:24:37,621 DEBUG  (../src/lstm.cpp:31) - Start Program! ... oe
+2015-04-28 20:24:37,621 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:24:37,621 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.745188
+0.677288
+2015-04-28 20:24:37,621 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:24:37,621 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.867201
+0.0827626
+2015-04-28 20:28:10,282 DEBUG  (../src/lstm.cpp:31) - Start Program! ... oe
+2015-04-28 20:28:10,282 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:28:10,282 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.271033
+0.734345
+2015-04-28 20:28:10,282 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:28:10,282 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.511351
+0.829358
+2015-04-28 20:28:10,283 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 20:31:25,523 DEBUG  (../src/lstm.cpp:31) - Start Program! ... 
+2015-04-28 20:31:25,524 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:31:25,524 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.178638
+0.707878
+2015-04-28 20:31:25,524 DEBUG  (../src/lstm.cpp:38) -  output:= 0
+2015-04-28 20:31:25,524 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:31:25,524 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.650815
+0.907694
+2015-04-28 20:31:25,524 DEBUG  (../src/lstm.cpp:39) -  output:= 1
+2015-04-28 20:31:25,524 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 20:34:40,837 DEBUG  (../src/lstm.cpp:31) - Start Program! ... 
+2015-04-28 20:34:40,837 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:34:40,837 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.072981
+0.671693
+2015-04-28 20:34:40,837 DEBUG  (../src/lstm.cpp:38) -  output:= 0
+2015-04-28 20:34:40,837 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:34:40,837 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+ 
+0.803606
+0.370944
+2015-04-28 20:34:40,837 DEBUG  (../src/lstm.cpp:39) -  output:= 1
+2015-04-28 20:34:40,837 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 20:36:24,550 DEBUG  (../src/lstm.cpp:31) - Start Program! ... 
+2015-04-28 20:36:24,550 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:36:24,550 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 0.845202
+0.720848
+
+2015-04-28 20:36:24,550 DEBUG  (../src/lstm.cpp:38) -  output:= 1
+2015-04-28 20:36:24,550 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:36:24,550 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 0.221443
+0.647058
+
+2015-04-28 20:36:24,550 DEBUG  (../src/lstm.cpp:39) -  output:= 0
+2015-04-28 20:36:24,550 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 20:38:04,575 DEBUG  (../src/lstm.cpp:31) - Start Program! ... 
+2015-04-28 20:38:04,575 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:38:04,575 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.539354
+0.807892
+
+2015-04-28 20:38:04,576 DEBUG  (../src/lstm.cpp:38) -  output:= 1
+2015-04-28 20:38:04,576 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:38:04,576 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.200244
+0.4532
+
+2015-04-28 20:38:04,576 DEBUG  (../src/lstm.cpp:39) -  output:= 0
+2015-04-28 20:38:04,576 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 20:38:18,639 DEBUG  (../src/lstm.cpp:31) - Start Program! ... 
+2015-04-28 20:38:18,639 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:38:18,640 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.0387463
+0.708989
+2015-04-28 20:38:18,640 DEBUG  (../src/lstm.cpp:38) -  output:= 0
+2015-04-28 20:38:18,640 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:38:18,640 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.772126
+0.379768
+2015-04-28 20:38:18,640 DEBUG  (../src/lstm.cpp:39) -  output:= 1
+2015-04-28 20:38:18,640 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 20:52:02,565 DEBUG  (../src/lstm.cpp:31) - Start Program! ... 
+2015-04-28 20:52:02,566 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 20:52:02,566 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.220871
+0.049259
+2015-04-28 20:52:02,566 DEBUG  (../src/lstm.cpp:38) -  output:= 0
+2015-04-28 20:52:02,566 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 20:52:02,566 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.694515
+0.889857
+2015-04-28 20:52:02,566 DEBUG  (../src/lstm.cpp:39) -  output:= 1
+2015-04-28 20:52:02,566 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 21:02:03,546 DEBUG  (../src/lstm.cpp:31) - Start Program! ... 
+2015-04-28 21:02:03,547 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:1
+2015-04-28 21:02:03,547 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.701924
+0.831333
+2015-04-28 21:02:03,547 DEBUG  (../src/lstm.cpp:38) -  output:= 1
+2015-04-28 21:02:03,547 DEBUG Perceptron (../src/Perceptron.cpp:58) - Init perceptron nr:2
+2015-04-28 21:02:03,547 DEBUG Perceptron (../src/Perceptron.cpp:69) - Weight matrix was not initialized.  Random initialisation!!! 
+0.92617
+0.594696
+2015-04-28 21:02:03,547 DEBUG  (../src/lstm.cpp:39) -  output:= 1
+2015-04-28 21:02:03,548 DEBUG net (../src/Net.cpp:24) - Init Net. 
+2015-04-28 21:02:03,548 DEBUG net (../src/Net.cpp:40) - Net contains: 6 Perceptrons.
+2015-04-28 21:02:03,548 DEBUG net (../src/Net.cpp:41) - Net contains: 6X6 weights.

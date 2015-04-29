@@ -28,15 +28,15 @@ LoggerPtr loggerMyMain(Logger::getLogger("main"));
 int main() {
 
 	DOMConfigurator::configure("Log4cxxConfig.xml");
-	LOG4CXX_DEBUG(loggerMyMain, "Start Program! ... " << "oe");
+	LOG4CXX_DEBUG(loggerMyMain, "Start Program! ... ");
 
 	Eigen::VectorXd v(2);
 	v << 0.5, 0.5;
 
 	Perceptron p(2);
 	Perceptron p1(2);
-	std::cout << " output:= " << p.run(v) << std::endl;
-	std::cout << " output:= " << p1.run(v) << std::endl;
+	LOG4CXX_DEBUG(loggerMyMain, " output:= " << p.run(v));
+	LOG4CXX_DEBUG(loggerMyMain, " output:= " << p1.run(v));
 
 	int arr[3] = {3,2,1};
 	Net n(arr);

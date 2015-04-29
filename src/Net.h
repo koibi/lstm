@@ -10,6 +10,7 @@
 
 #include <Eigen/Core>
 #include <Eigen/Dense>
+#include "Perceptron.h"
 #include <log4cxx/logger.h>
 
 namespace net {
@@ -17,7 +18,7 @@ namespace net {
 class Net {
 private:
 
-	Perceptron perceptronArray[];
+	std::vector<Perceptron> perceptronVector;
 	int nrInputNeurons; /**< TODO **/
 	bool isNrInputNeuronsSet; /**< TODO **/
 

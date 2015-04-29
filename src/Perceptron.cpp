@@ -66,7 +66,7 @@ void Perceptron::check_init() {
 		}
 
 		LOG4CXX_DEBUG(perceptronLogger,
-				"Weight matrix was not initialized. " << " Random initialisation!!! " << "\n \n" << weights);
+				"Weight matrix was not initialized. " << " Random initialisation!!! " << "\n" << weights);
 		weights_init = true;
 
 	}

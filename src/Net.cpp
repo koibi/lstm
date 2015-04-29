@@ -21,6 +21,8 @@ namespace net {
  */
 Net::Net(int nrNeuronsPerLayer[]) {
 
+	LOG4CXX_DEBUG(netLogger, "Init Net. ");
+
 	/** Erstelle die Gewichtsmatrix. **/
 	int count = 0;
 	for (unsigned int i = 0;
@@ -28,7 +30,15 @@ Net::Net(int nrNeuronsPerLayer[]) {
 			i++) {
 		count += nrNeuronsPerLayer[i];
 	}
+
+	perceptronVector.reserve(count);
+
+	for (int i = 0; i < count; i++) {
+		perceptronVector.push_back(Perceptron(2, 0.5));
+	}
 	weightMatrix = MatrixXd(count, count);
+	LOG4CXX_DEBUG(netLogger, "Net contains: " << count << " Perceptrons." );
+	LOG4CXX_DEBUG(netLogger, "Net contains: " << count << "X" << count << " weights." );
 }
 
 Net::~Net() {
