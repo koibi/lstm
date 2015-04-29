@@ -37,8 +37,8 @@ Net::Net(int nrNeuronsPerLayer[]) {
 		perceptronVector.push_back(Perceptron(2, 0.5));
 	}
 	weightMatrix = MatrixXd(count, count);
-	LOG4CXX_DEBUG(netLogger, "Net contains: " << count << " Perceptrons." );
-	LOG4CXX_DEBUG(netLogger, "Net contains: " << count << "X" << count << " weights." );
+	LOG4CXX_DEBUG(netLogger, "Net contains: " << count << " Perceptrons. " );
+	LOG4CXX_DEBUG(netLogger, "Net contains: " << count << "X" << count << " weights. " );
 }
 
 Net::~Net() {
